@@ -1,5 +1,5 @@
-install netbeans
-cygwin
+#install netbeans
+#cygwin
 	install cypwin
 	select these
 		gcc-core
