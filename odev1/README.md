@@ -1,25 +1,24 @@
-install netbeans<br />
-cygwin<br />
-```bash
-	install cypwin<br />
-	select these<br />
-		gcc-core<br />
-		gcc-g++<br />
-		gdb<br /><br />
-		make<br /><br />
-	to Enviroment Variables/Path... C:\cygwin64 <br />
-```
-open netbeans<br />
-tools<br />
-plugins<br />
-setting<br />
-click portal<br />
-available plugins<br />
-check for newest<br />
-add c/c++ plugin<br />
+	install netbeans
+	cygwin
+		install cypwin
+		select these
+		gcc-core
+		gcc-g++
+		gdb
+		make
+	to Enviroment Variables/Path... C:\cygwin64 
 
-add project<br />
-project right click then properties<br />
-Run tab<br />
-Console Type<br />
-External Terminal<br />
+	open netbeans
+	tools
+	plugins
+	setting
+	click portal
+	available plugins
+	check for newest
+	add c/c++ plugin
+
+	add project
+	project right click then properties
+	Run tab
+	Console Type
+	External Terminal
