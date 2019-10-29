@@ -1,6 +1,6 @@
 install netbeans<br />
 cygwin<br />
-	install cypwin<br />
+	&#9;install cypwin<br />
 	select these<br />
 		gcc-core<br />
 		gcc-g++<br />
