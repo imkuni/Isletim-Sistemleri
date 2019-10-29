@@ -1,13 +1,14 @@
 install netbeans<br />
 cygwin<br />
-	&#9;install cypwin<br />
+```bash
+	install cypwin<br />
 	select these<br />
 		gcc-core<br />
 		gcc-g++<br />
 		gdb<br /><br />
 		make<br /><br />
 	to Enviroment Variables/Path... C:\cygwin64 <br />
-	
+```
 open netbeans<br />
 tools<br />
 plugins<br />
