@@ -25,7 +25,6 @@ char* first_reading() {
         strcat(string, buff);
 
         memset(buff, 0, sizeof (buff));
-        printf(" ");
     }
     const char* messageOne_ = (char *) malloc(strlen(string) + 1);
     strcpy(messageOne_, string);
@@ -79,7 +78,6 @@ unsigned long hash(unsigned char *str) {
         strcat(string, "\n");
         memset(buff, 0, sizeof (buff));
     }
-    printf(" ");
     const char* messageOne_ = (char *) malloc(strlen(string) + 1);
     strcpy(messageOne_, string);
     fclose(fp);
@@ -94,12 +92,6 @@ unsigned long hash(unsigned char *str) {
 }
 
 int main(int argc, char** argv) {
-    //    unsigned long hash1 = hash("OperatingSystemNotes.txt");   
-    //    unsigned long hash2 = hash("OperatingSystemNotes2.txt"); 
-    //    printf("\nhas 1 is %lu",hash1);
-    //    printf("\nhas 1 is %lu",hash1);
-
-
     int fd[2], nbytes;
     pid_t childpid1, childpid2;
     char* string = first_reading();
@@ -134,7 +126,6 @@ int main(int argc, char** argv) {
             //write readBuffer to OperatingSystemNotes2
             nbytes = read(fd[0], readBuffer, sizeof (readBuffer));
             printf("Received String %s\n", readBuffer);
-            //write to second file
             second_writing(readBuffer);
             unsigned long hash2 = hash("OperatingSystemNotes.txt");
             printf("OperatingSystemNotes2 hash is %lu (pid=%d)\n"
